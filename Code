@@ -6,10 +6,10 @@ const web3 = new Web3('https://');
 // 您的账户地址和私钥
 const senderAddress = '0x';
 
-const privateKey = '0x';  // 确保私钥以'0x'开头
+const privateKey = '0x';  // 私钥
 
 // 接收方地址
-const recipientAddress = '0x2Bc2EE8c4587Bc706735078431fB27e3F6CE2F92';
+const recipientAddress = '0x';
 
 async function sendTransaction() {
   while (true) {
